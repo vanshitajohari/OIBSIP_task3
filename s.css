@@ -1,0 +1,44 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+}
+.container{
+    padding: 10px;
+    border: 1px solid black;
+    width:40%;
+    margin:auto;
+    background-color: antiquewhite;
+}
+.container .input{
+    width:87%;
+    height:20px;
+    font-size: 20px;
+    letter-spacing: normal;
+}
+.container .btn{
+    width:50px;
+    height:25px;
+}
+.container ul{
+    list-style: none;
+    padding: 0px;
+}
+.container li{
+    color:black;
+    letter-spacing: normal;
+}
+.container li a{
+    float:right;
+    color: red;
+    text-decoration: none;
+}
+.container #error{
+    color: red;
+    font-size: 20px;
+}
+.btn{
+    background-color: green;
+}
+.btn::marker{
+    font-size: 20px;
+}
